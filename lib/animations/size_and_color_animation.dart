@@ -17,6 +17,7 @@ class _SizeAndColorAnimation extends State<SizeAndColorAnimation> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Size and Color Animation'),
+        backgroundColor: Theme.of(context).colorScheme.secondary,
       ),
       body: Center(
         child: Column(
@@ -24,37 +25,40 @@ class _SizeAndColorAnimation extends State<SizeAndColorAnimation> {
           children: [
             AnimatedDefaultTextStyle(
               child: Text(
-                'Animations are cool',
+                'Simform',
               ),
               style: textStyle,
               curve: Curves.bounceIn,
               duration: Duration(seconds: 1),
             ),
             ElevatedButton(
-              onPressed: () {
-                animate = !animate;
-                animate
-                    ? setState(() {
-                        textStyle = TextStyle(
-                          fontSize: 20,
-                          color: Colors.deepPurple,
-                        );
-                      })
-                    : setState(
-                        () {
-                          textStyle = TextStyle(
-                            fontSize: 30,
-                            color: Colors.pinkAccent,
-                            fontWeight: FontWeight.bold,
-                          );
-                        },
-                      );
-              },
+              onPressed: _animateStyle,
               child: Text('animate'),
+              style: ElevatedButton.styleFrom(
+                primary: Theme.of(context).colorScheme.secondary,
+              ),
             )
           ],
         ),
       ),
     );
+  }
+
+  void _animateStyle() {
+    animate = !animate;
+    animate
+        ? setState(() {
+            textStyle = TextStyle(
+              fontSize: 20,
+              color: Colors.deepPurple,
+            );
+          })
+        : setState(() {
+            textStyle = TextStyle(
+              fontSize: 30,
+              color: Colors.pinkAccent,
+              fontWeight: FontWeight.bold,
+            );
+          });
   }
 }

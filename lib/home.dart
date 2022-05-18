@@ -8,30 +8,31 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Animated Default TextStyle Demo'),
+        backgroundColor: Theme.of(context).colorScheme.secondary,
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (_) => SizeAndColorAnimation()));
-                },
+                style: ElevatedButton.styleFrom(
+                  primary: Theme.of(context).colorScheme.secondary,
+                ),
+                onPressed: () => _navigate(context, SizeAndColorAnimation()),
                 child: Text('Size and Color Animation')),
             ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (_) => RandomStyleAnimation()));
-                },
+                style: ElevatedButton.styleFrom(
+                  primary: Theme.of(context).colorScheme.secondary,
+                ),
+                onPressed: () => _navigate(context, RandomStyleAnimation()),
                 child: Text('Random Style Animation')),
           ],
         ),
       ),
     );
+  }
+
+  void _navigate(BuildContext context, Widget screen) {
+    Navigator.push(context, MaterialPageRoute(builder: (_) => screen));
   }
 }
