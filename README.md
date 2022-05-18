@@ -1,16 +1,13 @@
-# animated_textstyle_demo
+# Animated DefaultTextStyle Demo
+![Simform LLC.](https://github.com/ujas-m-simformsolutions/animated-default-textstyle-demo/blob/master/assets/simformBanner.png)
 
-A new Flutter application.
+This is a small demo project to demonstrate the usage of AnimatedDefaultTextStyle widget.
 
-## Getting Started
+You can visit this [medium-blog](https://medium.com/@ujasthakkar54/animate-text-styles-with-animateddefaulttextstyle-3dfc29bbf02)
+to get full explanation of the demo.
 
-This project is a starting point for a Flutter application.
+Here are demos from blog
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Size & Color| Random |
+|---|---|
+| <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/sizeAndColor.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/sizeAndColor.gif" width="340" height="600"/></a> | <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/random.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/random.gif" width="340" height="600"/></a> |
