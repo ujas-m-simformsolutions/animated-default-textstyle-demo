@@ -10,4 +10,5 @@ Here are demos from blog
 
 | Size & Color| Random |
 |---|---|
-| <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/sizeAndColor.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/sizeAndColor.gif" width="340" height="600"/></a> | <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/random.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/random.gif" width="340" height="600"/></a> |
+| <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/sizeAndColor.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/sizeAndColor.gif" width="320" height="700"/></a> | <a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/random.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-default-textstyle-demo/master/assets/random.gif" width="320" height="700"/></a> |
+
